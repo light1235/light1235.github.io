@@ -85,3 +85,12 @@ section {
   display: grid;
   justify-items: center;
 }
+.roga {
+  background-color: black !important;
+  width: 300px;
+  height: 300px;
+}
+#ARButton {
+  background-color: black !important;
+  opacity: 1 !important;
+}
