@@ -148,11 +148,19 @@ a, a:hover, a:focus, a:active {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  background-image: url(../img/slider-background-last.png);
+  background-image: url(../img/slider-background-last-1.png);
+  backdrop-filter: grayscale(1) contrast(3) blur(1px);
   background-size: 1101px 562px;
   background-repeat: repeat;
   position: relative;
   background-position: -30px 0;
+}
+.Teradek-Slider .container .swiper-container .swiper-wrapper .slide-1 .blur-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 35px;
 }
 .Teradek-Slider .container .swiper-container .swiper-wrapper .slide-1 .slide-bottom-decoration {
   position: absolute;
@@ -202,6 +210,13 @@ a, a:hover, a:focus, a:active {
   bottom: -4px;
   right: 6px;
   z-index: 2;
+}
+.Teradek-Slider .container .swiper-container .swiper-wrapper .slide-2 .blur-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 35px;
 }
 .Teradek-Slider .container .swiper-container .swiper-wrapper .slide-2 .slide-bottom-decoration {
   position: absolute;
@@ -401,6 +416,13 @@ a, a:hover, a:focus, a:active {
   height: 7px;
   background-color: #3174E9;
   opacity: 0;
+}
+.Teradek-Slider .container .swiper-container .swiper-wrapper .slide-3 .blur-layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 35px;
 }
 .Teradek-Slider .container .swiper-container .swiper-wrapper .slide-3 .slide-plug {
   opacity: 0;
