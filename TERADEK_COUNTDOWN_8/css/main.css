@@ -1,0 +1,153 @@
+:root {
+  --main-color: #ff6f69;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: #fff;
+  color: #fff;
+}
+
+a, a:hover, a:focus, a:active {
+  outline: none !important;
+  text-decoration: none;
+  color: #000;
+}
+
+.grid-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*min-height:32vh;*/
+section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__die {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 100px;
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__die .die-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(146, 138, 147, 0.3);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__title {
+  font-family: Satoshi, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 81px;
+  line-height: 122px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__timer {
+  position: relative;
+  z-index: 1;
+  font-family: Satoshi, serif;
+  font-weight: bold;
+  font-size: 116px;
+  line-height: 108px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 20px;
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__timer span {
+  font-weight: normal;
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__timer .hours, .TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__timer .minutes, .TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__timer .seconds {
+  width: 140px;
+}
+.TERADEK_COUNTDOWN_8 .scene-1 .scene-1__content .content__event-name {
+  position: absolute;
+  font-family: Oooh Baby, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%) rotate(-6.22deg);
+  text-shadow: 0 0 10px #0698a5, 0 0 30px #0698a5, 0 0 80px #0698a5, 0 0 120px #0698a5, 0 0 200px #0698a5;
+}
