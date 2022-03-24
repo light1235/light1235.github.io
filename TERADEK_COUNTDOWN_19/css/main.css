@@ -1,0 +1,147 @@
+:root {
+  --main-color: #ff6f69;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background-color: #fff;
+  color: #fff;
+}
+
+a, a:hover, a:focus, a:active {
+  outline: none !important;
+  text-decoration: none;
+  color: #000;
+}
+
+.grid-container {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*min-height:32vh;*/
+section {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.TERADEK_COUNTDOWN_19 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer {
+  position: absolute;
+  font-family: Satoshi, serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 168px;
+  line-height: 252px;
+  letter-spacing: 0.005em;
+  color: white;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 15px;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer span {
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 134px;
+  letter-spacing: 0.005em;
+  color: white;
+  display: grid;
+  align-items: end;
+  padding-bottom: 25px;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer .hours, .TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer .minutes, .TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer .seconds {
+  width: 210px;
+  text-align: center;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__timer .seconds {
+  text-align: start;
+}
+.TERADEK_COUNTDOWN_19 .scene-1 .scene-1__content .content__event-name {
+  position: absolute;
+  font-family: "Panchang", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: white;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
